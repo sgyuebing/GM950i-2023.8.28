@@ -74,7 +74,7 @@ config mmdvmhost 'System_Fusion_Network'
 	option Enable '1'
 
 config ysfgateway 'YSFG_Network'
-	option InactivityTimeout '5'
+	option InactivityTimeout '999'
 	option Startup 'CN-BI4PCS'
 	option Revert '1'
 
