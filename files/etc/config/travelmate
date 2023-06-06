@@ -6,10 +6,10 @@ config travelmate 'global'
 	option trm_autoadd '0'
 	option trm_mail '0'
 	option trm_debug '0'
+	option trm_enabled '1'
 	option trm_iface 'trm_wwan'
 	option trm_vpn '1'
 	option trm_randomize '0'
-	option trm_enabled '1'
 
 config uplink
 	option enabled '1'
@@ -17,7 +17,7 @@ config uplink
 	option ssid '苏观-Hotel-2G'
 	option con_start_expiry '0'
 	option con_end_expiry '0'
-	option con_start '2023.06.03-13:46:42'
+	option con_start '2022.11.16-09:01:43'
 
 config uplink
 	option enabled '1'
@@ -25,5 +25,5 @@ config uplink
 	option ssid 'BI4PCS'
 	option con_start_expiry '0'
 	option con_end_expiry '0'
-	option con_start '2023.06.04-23:29:29'
+	option con_start '2023.06.06-07:41:02'
 
