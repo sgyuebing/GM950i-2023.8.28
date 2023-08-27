@@ -123,11 +123,6 @@ config rule
 	option proto 'udp'
 	option target 'ACCEPT'
 
-config include 'zerotier'
-	option type 'script'
-	option path '/etc/zerotier.reload'
-	option reload '1'
-
 config include 'passwall'
 	option type 'script'
 	option path '/var/etc/passwall.include'
@@ -136,5 +131,10 @@ config include 'passwall'
 config include 'passwall_server'
 	option type 'script'
 	option path '/var/etc/passwall_server.include'
+	option reload '1'
+
+config include 'zerotier'
+	option type 'script'
+	option path '/etc/zerotier.reload'
 	option reload '1'
 
